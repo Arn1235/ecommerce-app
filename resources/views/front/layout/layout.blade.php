@@ -1,0 +1,5 @@
+@include('front.layout.head')
+@include('front.layout.header')
+@yield('content')
+@flasher_render()
+@include('front.layout.footer')
